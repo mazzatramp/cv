@@ -1,0 +1,162 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{tikzpagenodes}
+\usepackage{tikz}
+\usepackage{libertinus}
+\usepackage[T1]{fontenc}
+
+%page settings
+
+\geometry{top=2cm, bottom=2cm, left=2.0cm, right=2.0cm}
+\pagenumbering{gobble}
+
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+
+%template
+\renewcommand*\familydefault{\sfdefault}
+
+\begin{document}
+
+
+\vfill
+
+\begin{minipage}[t]{0.33\textwidth}
+    \begin{center} 
+        {\huge \textbf{Filippo Mazzarotto}} \\
+        \vspace{0.2cm}
+        \href{mailto:fmazzarotto+cv@proton.me}{fmazzarotto@proton.me} \\
+        \vspace{0.2cm}
+        \href{https://github.com/mazzatramp}{Github}
+        - \href{https://www.linkedin.com/in/filippo-mazzarotto-214554176/}{LinkedIn} 
+        %- \href{https://bsky.app/profile/mazzatramp.bsky.social}{Bluesky}
+    \end{center}
+
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.58\textwidth}
+    \vspace{-0.45cm}
+    \begin{center}
+        \begin{minipage}[t]{0.9\textwidth}
+            I am a Computer Engineering Master's student passionate about research, deep thinking and continuous learning. \\
+                        
+            I love tackling challenges with both rigor and creativity. Whether it's solving coding problems, brainstorming new ideas, engaging in discussions or exploring brand new topics. \\
+        \end{minipage}
+    \end{center}
+\end{minipage}
+
+\vfill
+\vfill
+
+\begin{minipage}[t]{0.33\textwidth}
+    \section*{Technical Skills}
+    \begin{itemize}[left=0.2cm, label={\textbullet}]
+        \item C, C++, Java, and Python
+        \item Machine Learning through scikit-learn, Keras, NumPy, pandas
+        \item Version Control Systems (Git)
+        \item Linux and Windows OS
+        \item \LaTeX \, and Office Suite
+        \item HTML, CSS, and JavaScript
+        \item SQL, ApacheSpark, and Hadoop
+        \item Object Oriented, Test Driven, and Data Driven Programming
+    \end{itemize}
+
+    \section*{Soft Skills}
+    \begin{itemize}[left=0.2cm, label={\textbullet}]
+        \item Collaboration with diverse teams
+        \item Adaptability and quick learning
+        \item Rigour and attention to detail
+    \end{itemize}
+
+    \section*{Awards}
+        \textbf{1\textsuperscript{st} place Mathematical Games} \hfill \textit{2019} \\ Institute level at ITTS "V. Volterra" \\
+
+        \textbf{1\textsuperscript{st} place Computer Olympics} \hfill \textit{2019} \\ Institute level at ITTS "V. Volterra"
+
+    \section*{Personal Projects}
+        \textbf{Sintonia} \hfill \textit{2020} \\
+        Web-based boardgame in Javascript \\
+
+        \textbf{Chess Engine} \hfill \textit{2022} \\
+        Fast C++ implementation of Chess
+        
+
+    \section*{Languages}
+        Italian (Native), English (B2)
+
+    \section*{Other interests}
+        \begin{itemize}[left=0.2cm, label={\textbullet}]
+            \item RPGs and Boardgames
+            \item Reading fiction and non-fiction
+        \end{itemize}
+
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.58\textwidth}
+    \section*{Education}
+        \textbf{Master Course in Computer Engineering}, \hfill \textit{2024 - Present} \\
+        Università degli Studi di Padova \hfill {GPA of 3.6}
+        \vspace{0.1cm}
+        \begin{itemize}[left=0.2cm, label={\textbullet}, itemsep=0cm]
+            \item Specialization in High Performance Computing and Big Data
+            \item Applied scikit-learn in Machine Learning course, covering clustering, Ridge Regression, SVM, and validation techniques
+        \end{itemize}
+        \vspace{0.2cm}
+
+        \textbf{Bachelor Course in Computer Engineering},  \hfill \textit{2020 - 2024} \\
+        Università degli Studi di Padova \hfill {GPA of 3.1}
+        \vspace{-0.1cm}
+        \begin{itemize}[left=0.2cm, label={\textbullet}, itemsep=0cm]
+            \item Use of Keras and Google Colab in Artifical Intelligence Laboratory
+            \item Courses on Algorithms, Data Structures, Physics and Electronics
+            \item Thesis on the SPES Machine Protection System at INFN
+        \end{itemize}
+        \vspace{0.2cm}
+
+        \textbf{High School in Information Technology}, \hfill \textit{2015 - 2020} \\
+        ITTS "V. Volterra"
+        \vspace{-0.1cm} \hfill {91/100}
+        \begin{itemize}[left=0.2cm, label={\textbullet}, itemsep=0cm]
+            \item Computer Science, Telecommunications, and Networking
+            \item Awarded Erasmus+ web-development internship in Poland
+            \item Created projects on fractal visualization using C++ and Java
+        \end{itemize}
+
+    \section*{Experience}
+        \textbf{Scholarship in Computation Department}  \hfill \textit{2023 - Present} \\
+        INFN, National Laboratories of Legnaro
+        \vspace{-0.1cm}
+        \begin{itemize}[left=0.2cm, label={\textbullet}, itemsep=0cm]
+            \item Developed a distributed Machine Protection System for a particle accelerating line using PLCs and EPICS, a framework for large-scale experiments, ensuring safety and coordination of equipment
+            \item Automated unit testing with Python and pytest, systematically improving reliability and reducing human error
+            \item Collaborated with different teams to gather and document subsystem requirements, ensuring clear documentation
+        \end{itemize}
+        \vspace{0.2cm}
+        
+        \textbf{Physics Guide and System Developer}  \hfill \textit{Autumns 2022 - 2025} \\
+        Sperimentando APS 
+        \vspace{-0.1cm}
+        \begin{itemize}[left=0.2cm, label={\textbullet}, itemsep=0cm]
+            \item Led interactive physics demonstrations in a STEM exhibition for schools and families, 
+            \item Developed and maintained a booking and staff management system using Javascript, API calls, and custom scripts in Google Sheets, reducing scheduling time 
+        \end{itemize}
+
+    \section*{Volunteering}
+        \textbf{Scout Explorer and Leader}\hfill \textit{2010 - Present} \\
+        AGESCI, Torre di Mosto (VE)
+        \vspace{-0.1cm}
+        \begin{itemize}[left=0.2cm, label={\textbullet}, itemsep=0cm]
+            \item Led my squad as a young leader
+            \item Planned activities for children and teenagers
+        \end{itemize}
+\end{minipage}
+
+\vfill
+
+\end{document}
